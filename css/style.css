@@ -10,3 +10,12 @@
     padding-top: 35px;
     padding-bottom: 520px;
 }
+.section1{
+    font-family: 'Merriweather', serif;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: brown;
+}
+ .section1,img{
+    float: right;
+}

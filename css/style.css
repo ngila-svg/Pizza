@@ -1,0 +1,12 @@
+
+.section{
+    background-image: url(../img/pizza-1094741_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    color: khaki;
+    padding-top: 35px;
+    padding-bottom: 520px;
+}

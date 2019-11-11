@@ -38,7 +38,9 @@
     display: none;
    }
    #y{
-       color: lawngreen;
+       color: brown;
+       font-family: fantasy;
+       font-style: oblique;
    }
    #iu{
        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../img/bacon.png");
@@ -46,4 +48,5 @@
    #myform{
        background-image: url("../img/pizza-1094741_960_720.jpg");
        color: lawngreen;
+       font-family: sans-serif;
    }

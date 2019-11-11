@@ -11,7 +11,7 @@ Pizza Place website is a web application tha allows you to make a pizza you want
 * it can be easy for you if you have ubuntu into your machine
 * Edit project clearly
 ## live site:
-https://musyoka8.github.io/Pizza-World/
+
  ## TECHNOLOGIES USED
  **PIzza place was created using HTML,CSS,BOOTSTRAP and JAVASCRIPT**
 ## BDD

@@ -127,130 +127,130 @@
                 <div class="col-sm-8">
 
                     <!-- ORDER form -->
+                    
+                        <div id="myform" style="">
+                            <form method="post" class="border border-light p-5 form-group" name="orderform" id="orderform">
+                                <h5 class="h4 mb-4 text-center underline">
+                                    <strong style="color: cornsilk; font-family: fantasy;">PIZZA WORLD ORDER FORM</strong>
+                                </h5>
+                                <label for="fname"><strong>FIRST NAME:</strong></label>
+                                <input type="text" name="fname" class="form-control" placeholder="first name"><br>
 
-                    <div id="myform" >
-                        <form method="post" class="border border-light p-5 form-group" name="orderform" id="orderform">
-                            <h5 class="h4 mb-4 text-center underline">
-                                <strong style="color: cornsilk;">PIZZA WORLD ORDER FORM</strong>
-                            </h5>
-                            <label for="fname"><strong>FIRST NAME:</strong></label>
-                            <input type="text" name="fname" class="form-control" placeholder="first name"><br>
+                                <label for="lname"><strong>LAST NAME:</strong></label>
+                                <input type="text" name="lname" class="form-control" placeholder="last name"><br>
 
-                            <label for="lname"><strong>LAST NAME:</strong></label>
-                            <input type="text" name="lname" class="form-control" placeholder="last name"><br>
-
-                            <label for="formEmail"><strong>E-MAIL:</strong></label>
-                            <input type="email" id="formEmail" class="form-control" placeholder="Your email"> <br>
+                                <label for="formEmail"><strong>E-MAIL:</strong></label>
+                                <input type="email" id="formEmail" class="form-control" placeholder="Your email"> <br>
 
 
-                            <label for="phone"><strong>PHONE:</strong></label>
-                            <input type="tel" id="phone" class="form-control" placeholder="0700000100"> <br>
+                                <label for="phone"><strong>PHONE:</strong></label>
+                                <input type="tel" id="phone" class="form-control" placeholder="0700000100"> <br>
 
-                            <div>
-                                <label for="sizeselect"><strong>PIZZA SIZE:</strong></label>
-                                <select class="mdb-select md-form mb-4 initialized form-control" id="sizeselect"
-                                    name="sizes">
-                                    <option value="" disabled selected>CHOOSE PIZZA SIZE</option>
-                                    <option value="200" name="small">SMALL - 200 KES</option>
-                                    <option value="400" name="medium">MEDIUM - 400 KES</option>
-                                    <option value="800" name="large">LARGE - 800 KES</option>
-                                </select>
+                                <div>
+                                    <label for="sizeselect"><strong>PIZZA SIZE:</strong></label>
+                                    <select class="mdb-select md-form mb-4 initialized form-control" id="sizeselect"
+                                        name="sizes">
+                                        <option value="" disabled selected>CHOOSE PIZZA SIZE</option>
+                                        <option value="200" name="small">SMALL - 200 KES</option>
+                                        <option value="400" name="medium">MEDIUM - 400 KES</option>
+                                        <option value="800" name="large">LARGE - 800 KES</option>
+                                    </select>
 
-                            </div>
-
-                            <div>
-                                <label for="sizeselect"><strong>PIZZA CRUST:</strong></label>
-                                <select class="mdb-select md-form mb-4 initialized form-control" id="crustselect"
-                                    name="crust">
-                                    <option value="" disabled selected>CHOOSE PIZZA CRUST</option>
-                                    <option value="100">Crispy - 100 KES</option>
-                                    <option value="150">Stuffed - 150 KES</option>
-                                    <option value="200">Glutten-free - 200 KES</option>
-                                </select>
-                            </div>
-
-                            <hr class="new1">
-                            <p style="color: black;"><strong>PIZZA TOPPINGS:</strong></p>
-                            <div class="mb-4">
-                                <div class="form-check form-control">
-
-                                    <input type="checkbox" class="form-check-input" id="pepperoni" name="toppings"
-                                        value="250" onchange="toppingsPrice()" />
-                                    <label class="form-check-label" for="pepperoni">
-                                        PEPPERONI - 250 KES</label>
                                 </div>
-                                <div class="form-check form-control">
-                                    <input type="checkbox" class="form-check-input" id="bacon" name="toppings"
-                                        value="300" onchange="toppingsPrice()" />
-                                    <label class="form-check-label" for="bacon">
-                                        BACON - 300 KES</label>
+
+                                <div>
+                                    <label for="sizeselect"><strong>PIZZA CRUST:</strong></label>
+                                    <select class="mdb-select md-form mb-4 initialized form-control" id="crustselect"
+                                        name="crust">
+                                        <option value="" disabled selected>CHOOSE PIZZA CRUST</option>
+                                        <option value="100">Crispy - 100 KES</option>
+                                        <option value="150">Stuffed - 150 KES</option>
+                                        <option value="200">Glutten-free - 200 KES</option>
+                                    </select>
                                 </div>
-                                <div class="form-check form-control">
-                                    <input type="checkbox" class="form-check-input" id="mushroom" name="toppings"
-                                        value="350" onchange="toppingsPrice()" />
-                                    <label class="form-check-label" for="mushroom">
-                                        MUSHROOM - 350 KES</label>
+
+                                <hr class="new1">
+                                <p style="color: chartreuse;"><strong>PIZZA TOPPINGS:</strong></p>
+                                <div class="mb-4">
+                                    <div class="form-check form-control">
+
+                                        <input type="checkbox" class="form-check-input" id="pepperoni" name="toppings"
+                                            value="250" onchange="toppingsPrice()" />
+                                        <label class="form-check-label" for="pepperoni">
+                                            PEPPERONI - 250 KES</label>
+                                    </div>
+                                    <div class="form-check form-control">
+                                        <input type="checkbox" class="form-check-input" id="bacon" name="toppings"
+                                            value="300" onchange="toppingsPrice()" />
+                                        <label class="form-check-label" for="bacon">
+                                            BACON - 300 KES</label>
+                                    </div>
+                                    <div class="form-check form-control">
+                                        <input type="checkbox" class="form-check-input" id="mushroom" name="toppings"
+                                            value="350" onchange="toppingsPrice()" />
+                                        <label class="form-check-label" for="mushroom">
+                                            MUSHROOM - 350 KES</label>
+                                    </div>
+                                    <p><strong>Total:</strong> <input type="number" size="2" name="total" value=""
+                                            class="form-control" id="total" /></p>
                                 </div>
-                                <p><strong>Total:</strong> <input type="number" size="2" name="total" value=""
-                                        class="form-control" id="total" /></p>
-                            </div>
-                            <div>
-                                <label for="quantity"><strong>QUANTITY:</strong></label>
-                                <input type="number" id="quantity" min="1" class="form-control mb-4"
-                                    placeholder="enter quantity of Pizza" name="quantity">
-                            </div>
+                                <div>
+                                    <label for="quantity"><strong>QUANTITY:</strong></label>
+                                    <input type="number" id="quantity" min="1" class="form-control mb-4"
+                                        placeholder="enter quantity of Pizza" name="quantity">
+                                </div>
 
-                            <hr class="new1">
-                            <!-- <div class="delivery">
-                        <button type="button" id="button1" class="btn btn-primary">Delivery</button>
-                    </div> -->
+                                <hr class="new1">
+                                <!-- <div class="delivery">
+                            <button type="button" id="button1" class="btn btn-primary">Delivery</button>
+                        </div> -->
 
 
 
 
-                            <label for="delivery"> <strong>DO YOU NEED DELIVERY?</strong></label> <br>
-                            <input type="radio" id="delivery" value="100" class="mb-4 form" name="delivery" checked> Yes
-                            (100
-                            KES)<br>
-                            <input type="radio" id="delivery" value="0" name="delivery" class="mb-4"> No <br>
-                            <div class="deladdress mb-4">
-                                <p>Your order will be delivered to your location.</p>
-                                <label for="address"><strong>DELIVERY ADDRESS: </strong></label>
-                                <textarea class="form-control" id="address" placeholder=""></textarea>
-                            </div>
+                                <label for="delivery"> <strong>DO YOU NEED DELIVERY?</strong></label> <br>
+                                <input type="radio" id="delivery" value="100" class="mb-4 form" name="delivery" checked> Yes
+                                (100
+                                KES)<br>
+                                <input type="radio" id="delivery" value="0" name="delivery" class="mb-4"> No <br>
+                                <div class="deladdress mb-4">
+                                    <p>Your order will be delivered to your location.</p>
+                                    <label for="address"><strong>DELIVERY ADDRESS: </strong></label>
+                                    <textarea class="form-control" id="address" placeholder=""></textarea>
+                                </div>
 
 
-                            <div class="">
-                                <label for="comment"><strong>COMMENT</strong></label>
-                                <textarea type="text" id="comment" class="form-control" rows="1"
-                                    placeholder="extra order comment"></textarea>
+                                <div class="">
+                                    <label for="comment"><strong>COMMENT</strong></label>
+                                    <textarea type="text" id="comment" class="form-control" rows="1"
+                                        placeholder="extra order comment"></textarea>
 
-                            </div>
+                                </div>
 
-                            <button id="y" class="btn-lg btn-outline-danger btn-rounded btn-block z-depth-0 my-4 waves-effect"
-                                type="button" onclick="return totalprice()">CHECK_OUT</button>
-                            <!-- <button type="submit"
-                        class="btn-lg btn-outline-danger btn-rounded btn-block z-depth-0 my-4 waves-effect btn cancel"
-                        onclick="closeForm()">Checkout</button> -->
+                                <button id="y" class="btn-lg btn-outline-danger btn-rounded btn-block z-depth-0 my-4 waves-effect"
+                                    type="button" onclick="return totalprice()">CHECK_OUT</button>
+                                <!-- <button type="submit"
+                            class="btn-lg btn-outline-danger btn-rounded btn-block z-depth-0 my-4 waves-effect btn cancel"
+                            onclick="closeForm()">Checkout</button> -->
 
-                        </form>
+                            </form>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <h3 class="underline" id="summary">ORDER SUMMARY</h3> <br>
-                    <h5 id="custname"></h5>
-                    <h5 id="output"></h5>
-                    <h5 id="sizeof"></h5>
-                    <h5 id="crustType"></h5>
-                    <h5 id="toppingsType"></h5>
+                    <div class="col-sm-4">
+                        <h3 class="underline" id="summary">ORDER SUMMARY</h3> <br>
+                        <h5 id="custname"></h5>
+                        <h5 id="output"></h5>
+                        <h5 id="sizeof"></h5>
+                        <h5 id="crustType"></h5>
+                        <h5 id="toppingsType"></h5>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    </div>
+        </div>
 
-    <!-- END ORDER FORM -->
+        <!-- END ORDER FORM -->
 
     </div>
     <div class="section4 container">

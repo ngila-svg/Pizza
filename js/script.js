@@ -6,16 +6,16 @@ $("input[name='delivery']").on("click", function () {
     return ((size + crust + toppings) * quantity) + deliver
   };
   
-  var toppingsPrice = function checkTotal() {
-    document.orderform.total.value = '';
-    var sum = 0;
-    for (i = 0; i < document.orderform.toppings.length; i++) {
-      if (document.orderform.toppings[i].checked) {
-        sum = sum + parseInt(document.orderform.toppings[i].value);
-      }
-    }
-    document.orderform.total.value = sum;
-  }
+  // var toppingsPrice = function checkTotal() {
+  //   document.orderform.total.value = '';
+  //   var sum = 0;
+  //   for (i = 0; i < document.orderform.toppings.length; i++) {
+  //     if (document.orderform.toppings[i].checked) {
+  //       sum = sum + parseInt(document.orderform.toppings[i].value);
+  //     }
+  //   }
+  //   document.orderform.total.value = sum;
+  // }
   
   function totalprice(form) {
     var fname = document.forms["orderform"]["fname"].value;

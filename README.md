@@ -3,7 +3,7 @@
 #### By **Wilfred Musyoka**
 ## Description
 ### PIZZAS World
-Pizza Place website is a web application tha allows you to make a pizza you want by choosing Topping,crust,size and the quantity you want
+Pizza World Espreso is a  web application tha allows you to makean order on the pizza you want by choosing Topping,crust,size and the quantity you want and we also offer delivery services.
 ## Setup/Installation Requirements
 * install code editor(ex.vs code) into your your machine
 * clone the project 
